@@ -1,4 +1,4 @@
-# WhatsApp Task Reminder Automation
+# Task Reminder Automation
 
 ## Requirements
 
@@ -6,9 +6,13 @@
 - Google Chrome (for pywhatkit)
 - WhatsApp account (or Twilio API credentials)
 
-## Installation
+## Pre-requisite
 
-Install required packages:
+- Whatsapp works only on [WhatsApp web](https://web.whatsapp.com)
+- Need a compatible browser, with the Whatsapp account logged-in
+
+
+## Important packages
 
 ```bash
 pip install pywhatkit twilio pandas schedule
